@@ -1,5 +1,7 @@
 # Alien Invasion
 
+Using virtualenv. Run ```source /venv/bin/activate``` before working on project
+
 First project in the second half of the book. Using PyGame
 
 # Plan
