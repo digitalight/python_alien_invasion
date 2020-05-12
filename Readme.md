@@ -6,7 +6,7 @@ First project in the second half of the book. Using PyGame
 
 # Plan
 
-- [ ]   Player controls a rocket ship that appears at the bottom center of the screen.
+- [x]   Player controls a rocket ship that appears at the bottom center of the screen.
 - [ ]   The Player can move the ship right and left using the arrow keys.
 - [ ]   The Player can shoot bullets using the spacebar.
 - [ ]   When game starts a fleet of aliens fills the sky and moves across and down the screen.
