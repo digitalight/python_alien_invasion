@@ -18,4 +18,4 @@ First project in the second half of the book. Using PyGame
 
 Extra addons:
 
-- [ ]   Add Highscore to scoreboard
+- [x]   Add Highscore to scoreboard
