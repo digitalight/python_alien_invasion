@@ -8,7 +8,7 @@ First project in the second half of the book. Using PyGame
 
 - [x]   Player controls a rocket ship that appears at the bottom center of the screen.
 - [x]   The Player can move the ship right and left using the arrow keys.
-- [ ]   The Player can shoot bullets using the spacebar.
+- [x]   The Player can shoot bullets using the spacebar.
 - [ ]   When game starts a fleet of aliens fills the sky and moves across and down the screen.
 - [ ]   The player shoots and destroys the aliens.
 - [ ]   If the player shoots all the aliens, a new fleet appears that moves faster.
