@@ -33,6 +33,8 @@ class Settings:
         self.alien_speed = 0.3
         self.bullet_speed = 1.0
         self.bullets_allowed = 4
+        #Scoring
+        self.alien_points = 10
 
         # fleet_direction of 1=right, -1=left
         self.fleet_direction = 1
