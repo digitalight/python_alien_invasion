@@ -14,8 +14,11 @@ First project in the second half of the book. Using PyGame
 - [x]   If the player shoots all the aliens, a new fleet appears that moves faster.
 - [x]   If any aliens hit the player or reach the bottom of the screen. Player loses a ship.
 - [x]   If player loses ship 3 times, the game ends.
-- [ ]   Add scoreboard
+- [x]   Add scoreboard
 
 Extra addons:
 
 - [x]   Add Highscore to scoreboard
+- [ ]   Add SFX
+- [ ]   Make better title screen
+- [ ]   Instructions on how to play the game
