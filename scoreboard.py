@@ -13,7 +13,6 @@ class Scoreboard:
         self.stats = ai_game.stats
 
         # Font settings for scoring information
-        self.text_color = (240, 240, 240)
         self.font = pygame.font.SysFont(None, 36)
 
         # Prepare the initial score image.
@@ -23,8 +22,11 @@ class Scoreboard:
         """Turn the score into a rendered image."""
         hiscore_str = str("Hiscore: " + str(self.stats.hiscore))
         score_str = str("Score: " + str(self.stats.score))
-        self.score_image = self.font.render(score_str, True, self.text_color, self.settings.bg_color)
-        self.hiscore_image = self.font.render(hiscore_str, True, self.text_color, self.settings.bg_color)
+        lives_str = str("Lives: " + str(self.stats.ships_left))
+
+        self.score_image = self.font.render(score_str, True, self.settings.text_color, self.settings.bg_color)
+        self.hiscore_image = self.font.render(hiscore_str, True, self.settings.text_color, self.settings.bg_color)
+        self.lives_image = self.font.render(lives_str, True, self.settings.text_color, self.settings.bg_color)
 
         # Display the score at the top left of the screen.
         self.score_rect = self.score_image.get_rect()
@@ -36,7 +38,13 @@ class Scoreboard:
         self.hiscore_rect.right = self.screen_rect.right - 20
         self.hiscore_rect.top = 20
     
+        # Display lives left in the center
+        self.lives_rect = self.lives_image.get_rect()
+        self.lives_rect.centerx = self.screen_rect.centerx
+        self.lives_rect.top = 20
+
     def show_score(self):
         """Draw score to the screen."""
         self.screen.blit(self.score_image, self.score_rect)
         self.screen.blit(self.hiscore_image, self.hiscore_rect)
+        self.screen.blit(self.lives_image, self.lives_rect)
