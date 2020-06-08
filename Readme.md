@@ -2,6 +2,10 @@
 
 Using virtualenv. Run ```source /venv/bin/activate``` before working on project
 
+```pip3 install -r requirements.txt```
+
+![Screenshot](screenshot.png)
+
 First project in the second half of the book. Using PyGame
 
 # Plan
