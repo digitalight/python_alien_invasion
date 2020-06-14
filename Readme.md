@@ -1,8 +1,26 @@
 # Alien Invasion
 
-Using virtualenv. Run ```source /venv/bin/activate``` before working on project
+# Install
+
+```git clone https://github.com/digitalight/python_alien_invasion.git```
+
+```cd python_alien_invasion```
+
+Create an virtualenv by running ```virtualenv venv```
+
+Run ```source /venv/bin/activate``` before working on project
 
 ```pip3 install -r requirements.txt```
+
+# Playing the game
+
+Run ```python3 alien_invasion.py```
+
+### Controls
+
+Press P or click Play to begin.
+<- -> Arrows keys to move ship
+Spacebar to fire.
 
 ![Screenshot](screenshot.png)
 
