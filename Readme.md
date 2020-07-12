@@ -6,11 +6,15 @@
 
 ```cd python_alien_invasion```
 
-Create an virtualenv by running ```virtualenv venv```
+Make sure pipenv is installed on your system ```sudo apt install pipenv```
 
-Run ```source /venv/bin/activate``` before working on project
+Then install the required modules for the project with
 
-```pip3 install -r requirements.txt```
+```pipenv install -r requirements.txt```
+
+Enable the environment with
+
+```pipenv shell```
 
 # Playing the game
 
